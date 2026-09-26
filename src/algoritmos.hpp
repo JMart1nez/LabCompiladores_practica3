@@ -21,4 +21,10 @@ StateSet epsilonClosure(const NFA &nfa, const StateSet &T);
  */
 DFA subconjuntos(const NFA &nfa);
 
+/* 
+ * Algoritmo 4 Minimizacion
+ * Minimiza el DFA
+ */
+DFA minimize_dfa(const DFA &dfa);
+
 #endif /* ALGORITMOS_HPP */
